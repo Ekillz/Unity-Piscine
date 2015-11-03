@@ -49,6 +49,10 @@
      <Compile Include="Assets\ex00\Scripts\gonflage.cs" />
      <Compile Include="Assets\ex01\Scripts\Cube.cs" />
      <Compile Include="Assets\ex01\Scripts\CubeSpawner.cs" />
+     <Compile Include="Assets\ex02\Scipts\Ball.cs" />
+     <Compile Include="Assets\ex02\Scipts\Club.cs" />
+     <Compile Include="Assets\ex03\Scripts\Bird.cs" />
+     <Compile Include="Assets\ex03\Scripts\Pipe.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

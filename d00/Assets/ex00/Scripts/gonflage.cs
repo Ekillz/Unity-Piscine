@@ -18,7 +18,12 @@ public class gonflage : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
-		if (Time.unscaledTime >= 10 && transform.localScale.x < 8) {
+		if (Input.GetKeyDown("space") && breath <= this.breathMax) {
+			this.breath += 3;
+			transform.localScale += new Vector3 (0.3f, 0, 0);
+			transform.localScale += new Vector3 (0, 0.3f, 0);
+		}
+		if (Time.unscaledTime >= 20 && transform.localScale.x < 8) {
 			string str = "Balloon life time: " + Mathf.RoundToInt(Time.unscaledTime) + "s";
 			Debug.Log(str);
 			GameObject.Destroy (this.gameObject);
@@ -44,14 +49,7 @@ public class gonflage : MonoBehaviour {
 			string str = "Balloon life time: " + Mathf.RoundToInt(Time.unscaledTime) + "s";
 			Debug.Log(str);
 		}
-	}
 
-	void OnGUI()
-	{
-		if (Input.GetKeyDown("space") && breath <= this.breathMax) {
-			this.breath++;
-			transform.localScale += new Vector3 (0.1f, 0, 0);
-			transform.localScale += new Vector3 (0, 0.1f, 0);
-		}
+
 	}
 }
