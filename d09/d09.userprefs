@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ex03/Scripts/Boss.cs">
+    <Files>
+      <File FileName="Assets/ex00/Scripts/shoot.cs" Line="77" Column="96" />
+      <File FileName="Assets/ex01/Scripts/enemy.cs" Line="63" Column="26" />
+      <File FileName="Assets/ex01/Scripts/spawner.cs" Line="24" Column="56" />
+      <File FileName="Assets/ex02/Scripts/wave_manager.cs" Line="17" Column="13" />
+      <File FileName="Assets/ex03/Scripts/Boss.cs" Line="119" Column="10" />
+      <File FileName="Assets/ex03/Scripts/boss_spawner.cs" Line="23" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
